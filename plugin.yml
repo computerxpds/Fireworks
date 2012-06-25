@@ -1,0 +1,14 @@
+name: Fireworks
+author: Arcanios
+version: 0.2
+main: me.arcanios.Fireworks.Fireworks
+
+commands:
+    firework:
+         description: launch a firework from your position !
+         usage: /<command> - launch a firework
+         
+permissions:
+    firework.fireworkcommand:
+         description: allow a player to use /firework command
+         default: true
